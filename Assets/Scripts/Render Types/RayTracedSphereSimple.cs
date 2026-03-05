@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RayTracedSphere : MonoBehaviour
+public class RayTracedSphereSimple : MonoBehaviour
 {
-	public RayTracingMaterial material;
+	public RayTracingMaterialSimple material;
 
 	[SerializeField, HideInInspector] int materialObjectID;
 	[SerializeField, HideInInspector] bool materialInitFlag;
